@@ -1,7 +1,7 @@
 <?php
-$conn  = mysqli_connect('localhost', 'root', 'root', 'win');
+$conn  = mysqli_connect('localhost', 'root', '', 'win');
 
 if(!$conn)
 {
-    echo 'Error' . mysqli_connect_error;
+    echo 'Error' . mysqli_connect_error();
 }
