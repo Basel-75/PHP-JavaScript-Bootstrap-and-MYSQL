@@ -18,7 +18,7 @@ $users = mysqli_fetch_all($result, MYSQLI_ASSOC);
 <div class="container">
     <div class="position-relative overflow-hidden p-3 p-md-3 text-center bg-light">
         <div>
-          <img src="images&videos/nour-icon.jpg" alt="">
+          <img src="images/nour-icon.jpg" alt="">
           <h1 class="display-4 fw-normal">أربح مع نور</h1>
           <p class="lead fw-normal">باقي على فتح التسجيل</p>
           <h3 id="countdown"></h3>
